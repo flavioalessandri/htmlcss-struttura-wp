@@ -1,0 +1,54 @@
+/* foglio di stile */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width:100%;
+  height: 100px;
+  background-color: yellow;
+}
+
+.section-main{
+  background-color: #888cff;
+}
+
+
+
+.section-main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.widget{
+  float: left;
+  width: 30%;
+  background-color: blue;
+}
+
+.lx, .md, .rx{
+  background-color: #5a95bd;
+}
+
+
+.md{
+   margin:0 10px;
+   background-color: blue;
+}
+
+
+
+div.widget.rx p{
+  background-color: #a4faf9;
+  height:20%;
+  margin: 5px;
+}
+
+footer{
+  width:100%;
+  height: 100px;
+  background-color: orange;
