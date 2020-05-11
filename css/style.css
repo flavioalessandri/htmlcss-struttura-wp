@@ -47,9 +47,8 @@ header{
 
 
 /* Stile contenuti interni alla Colonna WIdget Destra */
-div.widget.right p{
+div.widget.right >*{
   background-color: #a4faf9;
-  height:20%;
   margin: 5px;
 }
 
