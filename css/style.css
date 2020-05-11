@@ -13,42 +13,49 @@ header{
 }
 
 .section-main{
-  background-color: #888cff;
+  width: 100%;
+  padding:5%;
+  /* background-color: #888cff; */
 }
 
-
-
+/* Clearfix */
 .section-main::after{
   content: "";
   display: table;
   clear: both;
 }
 
+
+/* Stile di Base per tutte le Colonne */
 .widget{
   float: left;
-  width: 30%;
-  background-color: blue;
-}
-
-.lx, .md, .rx{
   background-color: #5a95bd;
 }
 
 
-.md{
-   margin:0 10px;
-   background-color: blue;
+/* Stile Colonna WIdget Centrale */
+.middle{
+  display: inline-block;
+  width: 40%;
+  margin: 0px 5%;
 }
 
 
+.left, .right{
+  width:25%;
+}
 
-div.widget.rx p{
+
+/* Stile contenuti interni alla Colonna WIdget Destra */
+div.widget.right p{
   background-color: #a4faf9;
   height:20%;
   margin: 5px;
 }
 
+
 footer{
   width:100%;
   height: 100px;
   background-color: orange;
+  }
