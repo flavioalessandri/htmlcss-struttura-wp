@@ -35,7 +35,6 @@ header{
 
 /* Stile Colonna WIdget Centrale */
 .middle{
-  display: inline-block;
   width: 40%;
   margin: 0px 5%;
 }
@@ -49,7 +48,7 @@ header{
 /* Stile contenuti interni alla Colonna WIdget Destra */
 div.widget.right >*{
   background-color: #a4faf9;
-  margin: 5px;
+  margin-bottom: 2%;
 }
 
 
